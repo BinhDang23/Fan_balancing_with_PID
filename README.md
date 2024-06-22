@@ -1,1 +1,2 @@
 # Fan_balancing_with_PID
+In today project we will use this mechanism to control some brushless motor in order to calibrate our drone. We will put the motors on a balance and calculate the angle using the MPU6050 or the MPU9250 IMU module. So in our case the value that we will contro is the inclination angle of our drone. The e(t) error will be the difference between the raal angle of the drone and the desired one. The desired one will be 0, which means taht the drone is perfectly horizontal.
